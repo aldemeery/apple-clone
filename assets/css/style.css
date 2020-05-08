@@ -1,0 +1,17 @@
+.hero {
+  min-height: 512px;
+  background-color: cornflowerblue;
+  padding: 20px;
+}
+
+.product {
+  min-height: 200px;
+  background-color: blueviolet;
+  padding: 20px;
+}
+
+.footer {
+  min-height: 50px;
+  padding: 20px;
+  background-color: brown;
+}
