@@ -1,17 +1,61 @@
-.hero {
-  min-height: 512px;
-  background-color: cornflowerblue;
-  padding: 20px;
+html {
+  font-family: "Lucida Grande";
 }
 
-.product {
-  min-height: 200px;
-  background-color: blueviolet;
-  padding: 20px;
+/* Utils */
+
+.container-fluid {
+  grid-gap: 1px;
 }
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.anchor {
+  color: #0088cc;
+  text-decoration: none;
+}
+
+.anchor:hover {
+  text-decoration: underline;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.v-middle {
+  vertical-align: middle;
+}
+
+/* Hero Image */
+
+.hero {
+  min-height: 538px;
+  background: url("/assets/images/your_verse_hero.jpg") 50% 100% no-repeat;
+}
+
+/* Promos */
+
+.promo-img {
+  width: 100%;
+}
+
+/* Footer */
 
 .footer {
   min-height: 50px;
   padding: 20px;
-  background-color: brown;
+  font-size: 10px;
+  color: #6e6e6e;
+}
+
+.footer p {
+  padding-bottom: 10px;
 }
