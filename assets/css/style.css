@@ -1,5 +1,5 @@
 html {
-  font-family: "Lucida Grande";
+  font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
 }
 
 /* Utils */
@@ -14,7 +14,7 @@ html {
 }
 
 .anchor {
-  color: #0088cc;
+  color: #08c;
   text-decoration: none;
 }
 
@@ -34,11 +34,77 @@ html {
   vertical-align: middle;
 }
 
+.text-center {
+  text-align: center;
+}
+
 /* Hero Image */
 
 .hero {
   min-height: 538px;
   background: url("/assets/images/your_verse_hero.jpg") 50% 100% no-repeat;
+}
+
+/* Nav */
+.nav {
+  position: relative;
+  top: 65px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 4px;
+  background: linear-gradient(to top, #888 -15%, #555 50%, #666 35%, #888 85%);
+}
+
+.nav-item {
+  flex-grow: 1;
+}
+
+.nav-item:not(:last-child) {
+  border-right: 1px solid #555;
+}
+
+.nav-link {
+  padding: 4px 0;
+  height: 35px;
+  width: 100%;
+  display: inline-block;
+}
+
+.nav-link:hover {
+  background-color: #393939;
+  box-shadow: 0 0 10px #888 inset;
+}
+
+.nav-link:hover:nth-child(1) {
+  border-radius: 4px 0 0 4px;
+}
+
+.nav-search {
+  width: 106px;
+  border-radius: 50px;
+  border: 1px solid #555;
+  box-shadow: 3px 3px 5px #555 inset;
+  background: linear-gradient(to top, #888 -15%, #555 50%, #666 35%, #888 85%);
+  padding-left: 25px;
+  color: #eee;
+}
+
+.search-icon {
+  color: #eee;
+  font-size: 10px;
+  position: relative;
+  right: 103px;
+}
+
+.nav-search:focus {
+  background: #fff;
+  box-shadow: none;
+  color: #111;
+}
+
+.nav-search:focus + .search-icon {
+  color: #393939;
 }
 
 /* Promos */
