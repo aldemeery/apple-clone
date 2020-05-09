@@ -13,3 +13,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Hero and promos images.
 - Footer links and styles.
 - Nav styles.
+- Hero text.
