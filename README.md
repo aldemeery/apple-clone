@@ -4,19 +4,19 @@
 
 ## Screenshot
 
-![screenshot](./images/screenshot.png)
+![screenshot](./assets/images/screenshot.png)
 
 ## Live Preview
 
-Click [here]() for a live preview.
+Click [here](https://raw.githack.com/aldemeery/apple-clone/develop/index.html) for a live preview.
 
 ## Authors
 
 👤 **Osama Aldemeery**
 
--   Github: [@aldemeery](https://github.com/aldemeery)
--   Twitter: [@aldemeery](https://twitter.com/aldemeery)
--   Linkedin: [osamaaldemeery](https://linkedin.com/in/osamaaldemeery)
+- Github: [@aldemeery](https://github.com/aldemeery)
+- Twitter: [@aldemeery](https://twitter.com/aldemeery)
+- Linkedin: [osamaaldemeery](https://linkedin.com/in/osamaaldemeery)
 
 ## 🤝 Contributing
 

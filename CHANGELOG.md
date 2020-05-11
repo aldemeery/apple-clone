@@ -10,3 +10,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Basic layout.
+- Hero and promos images.
+- Footer links and styles.
+- Nav styles.
+- Hero text.
+
+### Fixed
+
+- The Hero image not showing up.
+
+### Changed
+
+- The height and border values of the search input.
