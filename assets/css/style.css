@@ -87,8 +87,9 @@ html {
 
 .nav-search {
   width: 106px;
+  height: 23px;
   border-radius: 50px;
-  border: 1px solid #555;
+  border: none;
   box-shadow: 3px 3px 5px #555 inset;
   background: linear-gradient(to top, #888 -15%, #555 50%, #666 35%, #888 85%);
   padding-left: 25px;
